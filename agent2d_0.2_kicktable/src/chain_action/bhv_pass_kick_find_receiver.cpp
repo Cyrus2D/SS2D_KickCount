@@ -33,6 +33,7 @@
 #include <config.h>
 #endif
 
+
 #include "bhv_pass_kick_find_receiver.h"
 
 #include "action_chain_holder.h"
@@ -64,6 +65,76 @@
 #include <vector>
 #include <algorithm>
 #include <cmath>
+
+/*
+ *
+ * add chrono
+ *
+ *   std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+ *
+ *   std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+ *
+ *   auto duration = duration_cast<microseconds>( t2 - t1 ).count();
+ *
+ *
+ */
+#include<chrono>
+
+
+static std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+
+static std::chrono::high_resolution_clock::time_point t2 = t1;
+
+static auto duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+
+
+#include <rcsc/action/body_clear_ball.h>
+#include <rcsc/action/body_dribble2008.h>
+#include <rcsc/action/body_intercept.h>
+#include <rcsc/action/body_smart_kick.h>
+
+#include <rcsc/action/basic_actions.h>
+#include <rcsc/action/bhv_go_to_point_look_ball.h>
+#include <rcsc/action/body_go_to_point.h>
+#include <rcsc/action/body_kick_one_step.h>
+#include <rcsc/action/body_stop_dash.h>
+#include <rcsc/action/body_stop_ball.h>
+#include <rcsc/action/neck_scan_field.h>
+
+#include <rcsc/player/player_agent.h>
+#include <rcsc/player/intercept_table.h>
+#include <rcsc/player/penalty_kick_state.h>
+
+#include <rcsc/common/logger.h>
+#include <rcsc/common/server_param.h>
+#include <rcsc/geom/rect_2d.h>
+#include <rcsc/geom/ray_2d.h>
+#include <rcsc/soccer_math.h>
+#include <rcsc/math_util.h>
+
+#include <rcsc/player/soccer_action.h>
+#include <rcsc/geom/vector_2d.h>
+
+#include <rcsc/formation/formation.h>
+#include <rcsc/geom/vector_2d.h>
+
+#include <boost/shared_ptr.hpp>
+#include <map>
+#include <vector>
+#include <string>
+
+/*
+ *
+ * add chrono
+ *
+ *   std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+ *
+ *   std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+ *
+ *   auto duration = duration_cast<microseconds>( t2 - t1 ).count();
+ *
+ *
+ */
 
 // #define DEBUG_PRINT
 
@@ -411,10 +482,17 @@ Bhv_PassKickFindReceiver::doPassKick( PlayerAgent * agent,
     }
     else
     {
+        t1 = std::chrono::high_resolution_clock::now();
+
         Body_SmartKick( pass.targetPoint(),
                         pass.firstBallSpeed(),
                         pass.firstBallSpeed() * 0.96,
                         3 ).execute( agent );
+        t2 = std::chrono::high_resolution_clock::now();
+
+        duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+        t1 = t2;
+        std::cout << "KCT ," << duration << std::endl;
     }
     agent->setNeckAction( new Neck_TurnToReceiver( M_chain_graph ) );
     doSayPass( agent, pass );

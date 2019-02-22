@@ -60,6 +60,28 @@
 #include <rcsc/soccer_math.h>
 #include <rcsc/math_util.h>
 
+/*
+ *
+ * add chrono
+ *
+ *   std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+ *
+ *   std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+ *
+ *   auto duration = duration_cast<microseconds>( t2 - t1 ).count();
+ *
+ *
+ */
+
+#include<chrono>
+
+static std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+
+static std::chrono::high_resolution_clock::time_point t2 = t1;
+
+static auto duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+
+
 using namespace rcsc;
 
 /*-------------------------------------------------------------------*/
@@ -462,11 +484,16 @@ Bhv_PenaltyKick::doShoot( PlayerAgent * agent )
                       __FILE__" (doShoot) shoot to (%.1f %.1f) speed=%f",
                       shot_point.x, shot_point.y,
                       shot_speed );
-
+        t1 = std::chrono::high_resolution_clock::now();
         Body_SmartKick( shot_point,
                         shot_speed,
                         shot_speed * 0.96,
                         2 ).execute( agent );
+        t2 = std::chrono::high_resolution_clock::now();
+        duration += std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+        std::cout << duration << std::endl;
+        t1 = t2;
+
         agent->setNeckAction( new Neck_TurnToPoint( shot_point ) );
         return true;
     }
@@ -780,11 +807,19 @@ Bhv_PenaltyKick::doDribble( PlayerAgent * agent )
                   ServerParam::i().ballDecay() );
 
             first_speed = std::min( first_speed, ServerParam::i().ballSpeedMax() );
+            t1 = std::chrono::high_resolution_clock::now();
+
             Body_SmartKick( drib_target,
                             first_speed,
                             first_speed * 0.96,
                             3 ).execute( agent );
             //             Body_KickMultiStep( drib_target, first_speed ).execute( agent );
+            t2 = std::chrono::high_resolution_clock::now();
+
+            duration += std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+            std::cout << duration << std::endl;
+            t1 = t2;
+
             dlog.addText( Logger::TEAM,
                           __FILE__": kick. to=(%.1f, %.1f) first_speed=%.1f",
                           drib_target.x, drib_target.y, first_speed );

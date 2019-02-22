@@ -43,6 +43,27 @@
 #include <rcsc/action/body_smart_kick.h>
 #include <rcsc/action/body_kick_one_step.h>
 
+/*
+ *
+ * add chrono
+ *
+ *   std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+ *
+ *   std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+ *
+ *   auto duration = duration_cast<microseconds>( t2 - t1 ).count();
+ *
+ *
+ */
+#include<chrono>
+
+
+static std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+
+static std::chrono::high_resolution_clock::time_point t2 = t1;
+
+static auto duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+
 /*-------------------------------------------------------------------*/
 /*!
 
@@ -86,6 +107,7 @@ Body_ForceShoot::execute( rcsc::PlayerAgent * agent )
             return true;
         }
     }
+    t1 = std::chrono::high_resolution_clock::now();
 
     if ( rcsc::Body_SmartKick( target,
                                param.ballSpeedMax(),
@@ -93,7 +115,18 @@ Body_ForceShoot::execute( rcsc::PlayerAgent * agent )
                                3 ).execute( agent ) )
     {
         return true;
+        t2 = std::chrono::high_resolution_clock::now();
+
+        duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+        t1 = t2;
+        std::cout << "KCT ," << duration << std::endl;
     }
+
+    t2 = std::chrono::high_resolution_clock::now();
+
+    duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+    t1 = t2;
+    std::cout << "KCT ," << duration << std::endl;
 
     if ( rcsc::Body_KickOneStep( target, param.ballSpeedMax() )
          .execute( agent ) )

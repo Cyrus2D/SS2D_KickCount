@@ -44,7 +44,30 @@
 #include <rcsc/player/debug_client.h>
 #include <rcsc/common/logger.h>
 
+#include<chrono>
+
+static std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+
+static std::chrono::high_resolution_clock::time_point t2 = t1;
+static auto duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+
+
 using namespace rcsc;
+
+/*
+ *
+ * add chrono
+ *
+ *   std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+ *
+ *   std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
+ *
+ *   auto duration = duration_cast<microseconds>( t2 - t1 ).count();
+ *
+ *
+ */
+
+#include <chrono>
 
 /*-------------------------------------------------------------------*/
 /*!
@@ -108,6 +131,9 @@ Bhv_StrictCheckShoot::execute( PlayerAgent * agent )
 
     if ( one_step_speed > best_shoot->first_ball_speed_ * 0.99 )
     {
+
+        t1 = std::chrono::high_resolution_clock::now();
+
         if ( Body_SmartKick( best_shoot->target_point_,
                              one_step_speed,
                              one_step_speed * 0.99 - 0.0001,
@@ -115,9 +141,24 @@ Bhv_StrictCheckShoot::execute( PlayerAgent * agent )
         {
              agent->setNeckAction( new Neck_TurnToGoalieOrScan( -1 ) );
              agent->debugClient().addMessage( "Force1Step" );
+
+             t2 = std::chrono::high_resolution_clock::now();
+
+             duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+             t1 = t2;
+             std::cout << "KCT ," << duration << std::endl;
+
              return true;
         }
+
+        t2 = std::chrono::high_resolution_clock::now();
+
+        duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+        t1 = t2;
+        std::cout << "KCT ," << duration << std::endl;
     }
+
+    t1 = std::chrono::high_resolution_clock::now();
 
     if ( Body_SmartKick( best_shoot->target_point_,
                          best_shoot->first_ball_speed_,
@@ -128,8 +169,22 @@ Bhv_StrictCheckShoot::execute( PlayerAgent * agent )
         {
             agent->setNeckAction( new Neck_TurnToGoalieOrScan( -1 ) );
         }
+
+        t2 = std::chrono::high_resolution_clock::now();
+
+        duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+        t1 = t2;
+        std::cout << "KCT ," << duration << std::endl;
+
         return true;
     }
+
+    t2 = std::chrono::high_resolution_clock::now();
+
+    duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+    t1 = t2;
+    std::cout << "KCT ," << duration << std::endl;
+
 
     dlog.addText( Logger::SHOOT,
                   __FILE__": failed" );

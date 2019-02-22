@@ -48,6 +48,15 @@
 #include <rcsc/common/server_param.h>
 #include <rcsc/math_util.h>
 
+#include<chrono>
+
+static std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+
+static std::chrono::high_resolution_clock::time_point t2 = t1;
+
+static auto duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+
+
 using namespace rcsc;
 
 /*-------------------------------------------------------------------*/
@@ -169,11 +178,19 @@ Bhv_SetPlayKickOff::doKick( PlayerAgent * agent )
     agent->debugClient().setTarget( target_point );
 
     // enforce one step kick
+    t1 = std::chrono::high_resolution_clock::now();
+
     Body_SmartKick( target_point,
                     ball_speed,
                     ball_speed * 0.96,
                     1 ).execute( agent );
     agent->setNeckAction( new Neck_ScanField() );
+
+    t2 = std::chrono::high_resolution_clock::now();
+
+    duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+    t1 = t2;
+    std::cout << duration << std::endl;
 }
 
 /*-------------------------------------------------------------------*/

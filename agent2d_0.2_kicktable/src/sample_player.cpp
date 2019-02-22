@@ -85,6 +85,14 @@
 #include <string>
 #include <cstdlib>
 
+#include<chrono>
+
+static std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
+
+static std::chrono::high_resolution_clock::time_point t2 = t1;
+
+static auto duration = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count();
+
 using namespace rcsc;
 
 /*-------------------------------------------------------------------*/
