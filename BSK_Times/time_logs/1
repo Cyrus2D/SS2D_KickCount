@@ -1,0 +1,1204 @@
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+KCT ,160
+KCT ,30
+KCT ,124
+KCT ,112
+KCT ,74
+KCT ,70
+KCT ,104
+KCT ,67
+KCT ,83
+KCT ,61
+KCT ,60
+KCT ,64
+KCT ,106
+KCT ,83
+KCT ,36
+KCT ,67
+KCT ,59
+KCT ,76
+KCT ,41
+HELIOS_base 2: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+KCT ,79
+KCT ,27
+KCT ,119
+KCT ,27
+KCT ,35
+KCT ,37
+KCT ,30
+KCT ,83
+HELIOS_base 3: [20790, 0] lost kick? at [20790, 0] sense=33 internal=34
+KCT ,36
+KCT ,76
+KCT ,100
+KCT ,146
+KCT ,64
+KCT ,51
+KCT ,42
+KCT ,86
+KCT ,124
+KCT ,210
+KCT ,34
+KCT ,25
+KCT ,74
+KCT ,38
+KCT ,194
+KCT ,172
+KCT ,141
+KCT ,47
+KCT ,36
+KCT ,101
+KCT ,26
+HELIOS_base 3: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+KCT ,102
+KCT ,67
+KCT ,95
+KCT ,78
+KCT ,55
+KCT ,75
+KCT ,225
+KCT ,92
+KCT ,75
+KCT ,89
+KCT ,83
+KCT ,59
+KCT ,51
+KCT ,52
+KCT ,30
+KCT ,119
+KCT ,75
+KCT ,102
+KCT ,117
+KCT ,97
+KCT ,72
+KCT ,100
+KCT ,101
+KCT ,30
+KCT ,24
+HELIOS_base 4: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+KCT ,100
+KCT ,64
+KCT ,42
+KCT ,25
+KCT ,79
+KCT ,82
+KCT ,108
+KCT ,77
+KCT ,99
+KCT ,132
+KCT ,102
+HELIOS_base 5: [11866, 0] lost kick? at [11866, 0] sense=28 internal=29
+KCT ,124
+KCT ,51
+KCT ,70
+KCT ,41
+KCT ,172
+KCT ,77
+KCT ,68
+KCT ,106
+KCT ,29
+KCT ,37
+KCT ,27
+KCT ,68
+KCT ,66
+KCT ,212
+KCT ,66
+KCT ,77
+KCT ,78
+KCT ,98
+KCT ,63
+KCT ,65
+KCT ,91
+KCT ,109
+KCT ,96
+KCT ,54
+KCT ,47
+HELIOS_base 5: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+KCT ,136
+KCT ,106
+KCT ,90
+KCT ,98
+KCT ,82
+KCT ,131
+KCT ,91
+KCT ,27
+KCT ,22
+KCT ,22
+KCT ,60
+KCT ,100
+KCT ,64
+KCT ,62
+KCT ,37
+KCT ,26
+KCT ,21
+KCT ,91
+KCT ,51
+KCT ,48
+KCT ,118
+KCT ,75
+KCT ,87
+KCT ,121
+KCT ,93
+KCT ,146
+KCT ,124
+KCT ,143
+KCT ,65
+KCT ,26
+KCT ,25
+KCT ,26
+KCT ,106
+KCT ,151
+KCT ,66
+KCT ,63
+KCT ,80
+KCT ,70
+HELIOS_base 6: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+HELIOS_base 7: [0, 1] lost change_view? at [0, 1] sense=0 internal=1
+KCT ,82
+KCT ,143
+KCT ,129
+KCT ,152
+KCT ,110
+KCT ,96
+KCT ,93
+KCT ,91
+HELIOS_base 7: [8354, 0] lost dash? at [8354, 0] sense=6283 internal=6284
+KCT ,88
+KCT ,108
+KCT ,99
+KCT ,96
+KCT ,91
+KCT ,163
+KCT ,149
+KCT ,56
+KCT ,116
+KCT ,104
+KCT ,87
+KCT ,124
+HELIOS_base 7: [21995, 0] lost kick? at [21995, 0] sense=47 internal=48
+KCT ,123
+KCT ,107
+KCT ,31
+KCT ,36
+KCT ,39
+KCT ,127
+KCT ,122
+KCT ,104
+KCT ,100
+KCT ,89
+KCT ,85
+KCT ,92
+KCT ,116
+KCT ,124
+KCT ,76
+KCT ,81
+KCT ,24
+KCT ,21
+KCT ,66
+KCT ,82
+KCT ,107
+KCT ,224
+HELIOS_base 7: [45776, 0] lost kick? at [45776, 0] sense=107 internal=108
+KCT ,54
+KCT ,299
+KCT ,254
+HELIOS_base 7: [55697, 0] lost kick? at [55697, 0] sense=124 internal=125
+KCT ,284
+KCT ,237
+HELIOS_base 7: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+KCT ,135
+KCT ,69
+KCT ,105
+KCT ,80
+KCT ,94
+KCT ,96
+KCT ,71
+KCT ,116
+KCT ,227
+KCT ,115
+KCT ,223
+HELIOS_base 8: [15165, 0] lost dash? at [15165, 0] sense=11276 internal=11277
+HELIOS_base 8: [15221, 0] lost kick? at [15221, 0] sense=29 internal=30
+KCT ,79
+KCT ,87
+HELIOS_base 8: [21322, 0] lost kick? at [21322, 0] sense=56 internal=57
+KCT ,79
+KCT ,52
+KCT ,51
+KCT ,48
+KCT ,49
+KCT ,101
+KCT ,102
+KCT ,112
+KCT ,124
+HELIOS_base 8: [28869, 0] lost kick? at [28869, 0] sense=74 internal=75
+KCT ,142
+KCT ,184
+KCT ,174
+KCT ,324
+KCT ,86
+KCT ,81
+KCT ,99
+HELIOS_base 8: [36894, 0] lost kick? at [36894, 0] sense=102 internal=103
+KCT ,145
+KCT ,140
+KCT ,90
+KCT ,77
+KCT ,71
+KCT ,81
+KCT ,131
+HELIOS_base 8: [43292, 0] lost kick? at [43292, 0] sense=120 internal=121
+KCT ,75
+KCT ,140
+KCT ,168
+KCT ,144
+KCT ,160
+KCT ,105
+KCT ,89
+KCT ,83
+KCT ,153
+KCT ,91
+KCT ,87
+KCT ,77
+KCT ,102
+KCT ,92
+KCT ,101
+KCT ,123
+KCT ,104
+HELIOS_base 8: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+KCT ,101
+KCT ,70
+KCT ,64
+KCT ,55
+KCT ,142
+KCT ,121
+KCT ,96
+KCT ,48
+KCT ,104
+KCT ,23
+KCT ,65
+KCT ,62
+KCT ,91
+KCT ,509
+KCT ,194
+KCT ,392
+KCT ,430
+KCT ,32
+KCT ,32
+KCT ,52
+KCT ,36
+KCT ,23
+KCT ,37
+KCT ,35
+KCT ,35
+KCT ,33
+KCT ,25
+KCT ,34
+KCT ,66
+KCT ,77
+KCT ,67
+HELIOS_base 9: [8298, 0] lost kick? at [8298, 0] sense=261 internal=262
+KCT ,52
+KCT ,93
+KCT ,90
+KCT ,187
+KCT ,125
+KCT ,215
+KCT ,29
+KCT ,24
+KCT ,144
+KCT ,118
+KCT ,112
+KCT ,192
+KCT ,223
+KCT ,104
+KCT ,118
+KCT ,147
+KCT ,175
+KCT ,129
+KCT ,68
+KCT ,47
+KCT ,31
+KCT ,69
+KCT ,103
+KCT ,45
+KCT ,226
+KCT ,200
+KCT ,144
+KCT ,30
+KCT ,23
+KCT ,24
+KCT ,160
+KCT ,115
+KCT ,75
+KCT ,88
+KCT ,28
+KCT ,26
+KCT ,91
+KCT ,68
+KCT ,79
+KCT ,72
+KCT ,67
+KCT ,65
+KCT ,36
+KCT ,68
+KCT ,97
+KCT ,78
+KCT ,99
+KCT ,27
+KCT ,24
+KCT ,67
+KCT ,186
+KCT ,179
+KCT ,75
+KCT ,37
+KCT ,156
+KCT ,158
+KCT ,171
+KCT ,76
+KCT ,40
+KCT ,66
+KCT ,23
+KCT ,140
+KCT ,168
+KCT ,65
+KCT ,217
+KCT ,135
+KCT ,224
+KCT ,158
+KCT ,173
+KCT ,147
+KCT ,70
+KCT ,416
+KCT ,167
+KCT ,417
+KCT ,149
+KCT ,605
+KCT ,34
+KCT ,56
+KCT ,217
+KCT ,143
+KCT ,65
+KCT ,59
+KCT ,198
+KCT ,91
+KCT ,75
+KCT ,39
+KCT ,64
+KCT ,112
+KCT ,126
+KCT ,120
+KCT ,24
+KCT ,176
+KCT ,179
+KCT ,153
+HELIOS_base 9: [44568, 0] lost dash? at [44568, 0] sense=30313 internal=30314
+KCT ,28
+KCT ,26
+KCT ,220
+KCT ,121
+KCT ,99
+KCT ,61
+KCT ,299
+KCT ,27
+KCT ,27
+KCT ,28
+KCT ,26
+KCT ,69
+KCT ,120
+KCT ,88
+KCT ,436
+KCT ,26
+KCT ,22
+KCT ,106
+KCT ,89
+KCT ,70
+KCT ,148
+KCT ,178
+KCT ,107
+KCT ,26
+KCT ,27
+KCT ,25
+KCT ,73
+KCT ,238
+KCT ,38
+KCT ,182
+KCT ,103
+KCT ,176
+KCT ,191
+KCT ,171
+KCT ,84
+KCT ,230
+KCT ,138
+KCT ,172
+KCT ,147
+KCT ,125
+KCT ,189
+KCT ,145
+KCT ,37
+KCT ,23
+KCT ,108
+KCT ,130
+HELIOS_base 9: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+HELIOS_base 10: [0, 1] lost change_view? at [0, 1] sense=0 internal=1
+KCT ,105
+KCT ,111
+KCT ,61
+KCT ,91
+KCT ,57
+KCT ,54
+KCT ,292
+KCT ,215
+KCT ,325
+KCT ,260
+KCT ,53
+KCT ,22
+KCT ,71
+KCT ,65
+KCT ,38
+KCT ,24
+KCT ,88
+KCT ,65
+KCT ,150
+KCT ,137
+KCT ,109
+KCT ,67
+KCT ,87
+KCT ,155
+KCT ,49
+KCT ,77
+KCT ,179
+KCT ,76
+KCT ,63
+KCT ,139
+KCT ,99
+KCT ,106
+KCT ,68
+KCT ,65
+HELIOS_base 10: [18529, 0] lost kick? at [18529, 0] sense=268 internal=269
+KCT ,67
+KCT ,67
+KCT ,74
+KCT ,74
+KCT ,63
+KCT ,132
+KCT ,38
+KCT ,79
+KCT ,77
+KCT ,51
+KCT ,42
+KCT ,31
+HELIOS_base 10: [20107, 0] lost kick? at [20107, 0] sense=317 internal=318
+KCT ,58
+KCT ,60
+HELIOS_base 10: [20873, 0] lost kick? at [20873, 0] sense=332 internal=333
+KCT ,76
+HELIOS_base 10: [21266, 0] lost kick? at [21266, 0] sense=345 internal=346
+KCT ,42
+KCT ,114
+KCT ,109
+KCT ,98
+KCT ,101
+KCT ,127
+KCT ,134
+KCT ,156
+KCT ,37
+KCT ,76
+KCT ,61
+KCT ,225
+KCT ,68
+KCT ,63
+KCT ,203
+KCT ,161
+KCT ,84
+KCT ,51
+HELIOS_base 10: [27119, 0] lost kick? at [27119, 0] sense=530 internal=531
+KCT ,117
+KCT ,97
+KCT ,257
+KCT ,197
+KCT ,28
+KCT ,72
+KCT ,64
+KCT ,29
+KCT ,61
+KCT ,123
+KCT ,96
+KCT ,153
+KCT ,81
+KCT ,71
+KCT ,164
+KCT ,113
+KCT ,50
+KCT ,67
+KCT ,46
+KCT ,144
+KCT ,189
+KCT ,62
+KCT ,64
+KCT ,89
+KCT ,58
+KCT ,71
+HELIOS_base 10: [34359, 0] lost dash? at [34359, 0] sense=22122 internal=22123
+KCT ,42
+KCT ,85
+KCT ,60
+KCT ,319
+KCT ,223
+KCT ,62
+KCT ,76
+KCT ,39
+KCT ,57
+KCT ,42
+KCT ,39
+KCT ,25
+KCT ,64
+KCT ,66
+KCT ,90
+KCT ,26
+KCT ,24
+KCT ,28
+KCT ,96
+KCT ,171
+KCT ,185
+KCT ,33
+KCT ,78
+KCT ,62
+KCT ,392
+KCT ,106
+KCT ,94
+KCT ,56
+KCT ,186
+KCT ,130
+KCT ,73
+KCT ,63
+KCT ,364
+KCT ,394
+KCT ,655
+KCT ,30
+KCT ,82
+KCT ,87
+KCT ,46
+KCT ,24
+KCT ,95
+KCT ,84
+KCT ,78
+KCT ,66
+KCT ,95
+KCT ,103
+KCT ,66
+KCT ,45
+KCT ,38
+KCT ,33
+KCT ,72
+KCT ,36
+KCT ,503
+KCT ,64
+KCT ,63
+KCT ,72
+KCT ,64
+KCT ,54
+KCT ,43
+KCT ,140
+KCT ,180
+KCT ,237
+KCT ,82
+KCT ,127
+KCT ,64
+KCT ,68
+KCT ,134
+KCT ,159
+KCT ,138
+KCT ,167
+KCT ,95
+KCT ,176
+KCT ,69
+KCT ,66
+KCT ,74
+KCT ,67
+KCT ,59
+KCT ,153
+KCT ,129
+KCT ,120
+KCT ,164
+KCT ,161
+KCT ,38
+KCT ,34
+KCT ,146
+KCT ,95
+HELIOS_base 10: finished.
+******************************************************************
+ librcsc 4.1.0
+ Copyright 2000 - 2007. Hidehisa Akiyama.
+ Copyright 2007 - 2011. Hidehisa Akiyama and Hiroki Shimora
+ All rights reserved.
+******************************************************************
+*****************************************************************
+ This program is based on agent2d created by Hidehisa Akiyama.
+ Copyright 2006 - 2011. Hidehisa Akiyama and Hiroki Shimora.
+ All rights reserved.
+*****************************************************************
+25
+KCT ,259
+KCT ,272
+KCT ,80
+KCT ,78
+HELIOS_base 11: [757, 0] lost kick? at [757, 0] sense=25 internal=26
+KCT ,143
+KCT ,262
+KCT ,123
+15
+15
+KCT ,109
+HELIOS_base 11: [1909, 0] lost kick? at [1909, 0] sense=59 internal=60
+HELIOS_base 11: [1919, 0] lost kick? at [1919, 0] sense=63 internal=64
+KCT ,255
+KCT ,121
+KCT ,113
+KCT ,155
+KCT ,115
+HELIOS_base 11: [2982, 0] lost dash? at [2982, 0] sense=1972 internal=1973
+KCT ,275
+KCT ,179
+57
+HELIOS_base 11: [3313, 0] lost kick? at [3313, 0] sense=105 internal=106
+KCT ,125
+KCT ,126
+KCT ,234
+KCT ,176
+KCT ,186
+16
+KCT ,143
+KCT ,142
+KCT ,793
+KCT ,514
+KCT ,415
+KCT ,158
+KCT ,466
+KCT ,293
+KCT ,299
+KCT ,303
+KCT ,212
+KCT ,209
+KCT ,253
+KCT ,217
+KCT ,63
+KCT ,40
+KCT ,27
+KCT ,24
+KCT ,148
+KCT ,158
+KCT ,62
+KCT ,113
+KCT ,174
+KCT ,150
+KCT ,148
+KCT ,177
+KCT ,275
+KCT ,124
+KCT ,113
+KCT ,74
+HELIOS_base 11: [6607, 0] lost kick? at [6607, 0] sense=248 internal=249
+KCT ,96
+KCT ,309
+KCT ,337
+KCT ,214
+21
+KCT ,136
+KCT ,122
+KCT ,234
+KCT ,280
+KCT ,217
+KCT ,112
+KCT ,126
+KCT ,189
+KCT ,171
+KCT ,90
+KCT ,139
+KCT ,163
+KCT ,116
+KCT ,130
+KCT ,176
+KCT ,219
+42
+KCT ,194
+HELIOS_base 11: [9733, 0] lost kick? at [9733, 0] sense=381 internal=382
+KCT ,153
+KCT ,68
+KCT ,65
+KCT ,66
+KCT ,148
+KCT ,105
+KCT ,96
+KCT ,49
+KCT ,36
+KCT ,74
+KCT ,106
+KCT ,79
+KCT ,95
+KCT ,244
+14
+KCT ,366
+KCT ,347
+KCT ,308
+KCT ,258
+KCT ,206
+KCT ,173
+KCT ,159
+KCT ,130
+KCT ,178
+KCT ,89
+KCT ,84
+KCT ,66
+KCT ,62
+KCT ,107
+KCT ,187
+17
+KCT ,162
+KCT ,131
+KCT ,105
+KCT ,103
+KCT ,64
+KCT ,158
+KCT ,153
+KCT ,305
+KCT ,112
+KCT ,190
+KCT ,197
+KCT ,140
+KCT ,130
+KCT ,260
+KCT ,181
+KCT ,156
+KCT ,162
+KCT ,112
+KCT ,186
+KCT ,83
+KCT ,168
+KCT ,42
+KCT ,223
+KCT ,164
+KCT ,214
+16
+KCT ,147
+KCT ,204
+KCT ,87
+KCT ,99
+HELIOS_base 11: [19693, 0] lost kick? at [19693, 0] sense=630 internal=631
+15
+KCT ,315
+KCT ,293
+KCT ,128
+KCT ,108
+KCT ,91
+44
+KCT ,110
+KCT ,105
+KCT ,185
+KCT ,110
+KCT ,169
+KCT ,54
+KCT ,90
+KCT ,48
+KCT ,204
+15
+KCT ,466
+KCT ,177
+KCT ,91
+KCT ,259
+KCT ,248
+KCT ,155
+HELIOS_base 11: [23123, 0] lost kick? at [23123, 0] sense=728 internal=729
+KCT ,256
+KCT ,692
+14
+KCT ,192
+KCT ,151
+KCT ,29
+KCT ,76
+KCT ,274
+KCT ,293
+KCT ,252
+KCT ,472
+KCT ,165
+KCT ,182
+16
+KCT ,146
+KCT ,116
+KCT ,90
+KCT ,217
+KCT ,201
+KCT ,139
+KCT ,217
+KCT ,162
+KCT ,40
+KCT ,139
+KCT ,293
+KCT ,156
+KCT ,81
+KCT ,103
+KCT ,51
+KCT ,132
+KCT ,161
+16
+KCT ,123
+KCT ,88
+KCT ,135
+KCT ,213
+KCT ,127
+KCT ,145
+KCT ,193
+KCT ,506
+KCT ,253
+KCT ,243
+KCT ,255
+KCT ,261
+KCT ,166
+KCT ,254
+KCT ,121
+KCT ,66
+KCT ,151
+KCT ,279
+KCT ,111
+KCT ,110
+HELIOS_base 11: [29238, 0] lost kick? at [29238, 0] sense=951 internal=952
+45
+KCT ,143
+KCT ,213
+KCT ,155
+KCT ,263
+KCT ,276
+KCT ,318
+15
+KCT ,432
+KCT ,323
+KCT ,156
+KCT ,232
+16
+KCT ,101
+KCT ,489
+KCT ,464
+KCT ,740
+KCT ,621
+KCT ,553
+HELIOS_base 11: [33918, 0] lost kick? at [33918, 0] sense=1082 internal=1083
+KCT ,139
+44
+KCT ,123
+KCT ,116
+KCT ,56
+HELIOS_base 11: [34311, 0] lost kick? at [34311, 0] sense=1094 internal=1095
+KCT ,481
+KCT ,225
+KCT ,125
+KCT ,309
+KCT ,167
+KCT ,453
+KCT ,746
+KCT ,473
+KCT ,733
+KCT ,95
+KCT ,84
+KCT ,305
+KCT ,129
+KCT ,134
+KCT ,183
+KCT ,504
+HELIOS_base 11: [36586, 0] lost dash? at [36586, 0] sense=24124 internal=24125
+KCT ,148
+KCT ,108
+KCT ,139
+KCT ,168
+KCT ,218
+KCT ,191
+KCT ,185
+KCT ,169
+58
+KCT ,345
+KCT ,110
+KCT ,120
+KCT ,126
+KCT ,116
+KCT ,101
+KCT ,191
+KCT ,128
+HELIOS_base 11: [38021, 0] lost kick? at [38021, 0] sense=1240 internal=1241
+KCT ,269
+KCT ,108
+KCT ,261
+KCT ,130
+KCT ,217
+KCT ,205
+KCT ,230
+KCT ,99
+KCT ,227
+KCT ,133
+KCT ,154
+KCT ,235
+KCT ,207
+KCT ,208
+KCT ,180
+KCT ,403
+KCT ,204
+KCT ,125
+KCT ,205
+KCT ,71
+KCT ,228
+KCT ,190
+KCT ,206
+KCT ,130
+KCT ,107
+HELIOS_base 11: [41535, 0] lost kick? at [41535, 0] sense=1354 internal=1355
+KCT ,110
+HELIOS_base 11: [41729, 0] lost kick? at [41729, 0] sense=1355 internal=1356
+KCT ,97
+KCT ,101
+KCT ,1246
+KCT ,974
+KCT ,676
+KCT ,883
+KCT ,115
+KCT ,157
+KCT ,92
+HELIOS_base 11: [43275, 0] lost kick? at [43275, 0] sense=1418 internal=1419
+KCT ,263
+KCT ,128
+KCT ,184
+KCT ,86
+KCT ,173
+KCT ,235
+KCT ,229
+KCT ,253
+KCT ,99
+HELIOS_base 11: [43592, 0] lost kick? at [43592, 0] sense=1441 internal=1442
+KCT ,108
+KCT ,206
+44
+KCT ,119
+KCT ,101
+KCT ,261
+KCT ,259
+KCT ,306
+KCT ,24
+KCT ,171
+KCT ,290
+KCT ,215
+44
+KCT ,219
+KCT ,97
+KCT ,58
+KCT ,144
+KCT ,123
+KCT ,71
+KCT ,62
+KCT ,135
+KCT ,79
+KCT ,281
+KCT ,464
+KCT ,248
+KCT ,361
+KCT ,274
+KCT ,73
+KCT ,63
+KCT ,267
+KCT ,105
+KCT ,869
+KCT ,434
+KCT ,507
+HELIOS_base 11: [48074, 0] lost kick? at [48074, 0] sense=1617 internal=1618
+HELIOS_base 11: [48130, 0] lost kick? at [48130, 0] sense=1621 internal=1622
+KCT ,195
+KCT ,274
+KCT ,294
+KCT ,267
+KCT ,241
+KCT ,169
+KCT ,329
+KCT ,264
+KCT ,188
+KCT ,223
+KCT ,238
+KCT ,259
+KCT ,201
+KCT ,186
+KCT ,271
+KCT ,162
+24
+KCT ,153
+KCT ,780
+HELIOS_base 11: [50004, 0] lost kick? at [50004, 0] sense=1711 internal=1712
+14
+KCT ,70
+KCT ,101
+KCT ,262
+HELIOS_base 11: [50976, 0] lost kick? at [50976, 0] sense=1733 internal=1734
+HELIOS_base 11: [50992, 0] lost dash? at [50992, 0] sense=33414 internal=33415
+HELIOS_base 11: [51341, 0] lost kick? at [51341, 0] sense=1737 internal=1738
+KCT ,82
+KCT ,90
+KCT ,157
+KCT ,211
+KCT ,185
+KCT ,190
+KCT ,301
+KCT ,213
+KCT ,305
+KCT ,1053
+KCT ,137
+KCT ,194
+KCT ,176
+KCT ,132
+KCT ,37
+HELIOS_base 11: [52893, 0] lost kick? at [52893, 0] sense=1808 internal=1809
+KCT ,274
+KCT ,371
+KCT ,125
+KCT ,243
+KCT ,171
+KCT ,49
+KCT ,62
+HELIOS_base 11: [53585, 0] lost kick? at [53585, 0] sense=1831 internal=1832
+81
+KCT ,108
+KCT ,103
+KCT ,79
+KCT ,81
+KCT ,154
+KCT ,77
+KCT ,300
+KCT ,178
+KCT ,611
+KCT ,176
+KCT ,106
+KCT ,115
+KCT ,108
+KCT ,105
+KCT ,119
+KCT ,268
+KCT ,275
+KCT ,207
+KCT ,225
+KCT ,170
+KCT ,75
+KCT ,72
+KCT ,199
+KCT ,192
+KCT ,221
+KCT ,66
+KCT ,100
+KCT ,63
+KCT ,351
+KCT ,287
+KCT ,238
+KCT ,257
+KCT ,96
+KCT ,186
+KCT ,85
+KCT ,141
+KCT ,125
+KCT ,116
+KCT ,96
+KCT ,184
+HELIOS_base 11: [59607, 0] lost kick? at [59607, 0] sense=2026 internal=2027
+KCT ,311
+23
+HELIOS_base 11: [59944, 0] lost kick? at [59944, 0] sense=2031 internal=2032
+HELIOS_base 11: finished.
