@@ -1,0 +1,3 @@
+G:/DNN_KickCount/CppDnn/cmake-build-debug/CMakeFiles/CppDnn.dir
+G:/DNN_KickCount/CppDnn/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/DNN_KickCount/CppDnn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
